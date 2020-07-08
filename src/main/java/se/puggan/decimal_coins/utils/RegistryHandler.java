@@ -11,7 +11,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import se.puggan.decimal_coins.items.Coin;
 
 public class RegistryHandler {
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, se.puggan.decimal_coins.DecimalCoins.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = new DeferredRegister(ForgeRegistries.ITEMS, se.puggan.decimal_coins.DecimalCoins.MOD_ID);
 
     public static void init() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
