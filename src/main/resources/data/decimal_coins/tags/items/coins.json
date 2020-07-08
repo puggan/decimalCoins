@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "decimal_coins:coin_1",
+    "decimal_coins:coin_5",
+    "decimal_coins:coin_10",
+    "decimal_coins:coin_20",
+    "decimal_coins:coin_100"
+  ]
+}

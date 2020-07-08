@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "decimal_coins:coins",
+  "ingredients": [
+    {
+      "item": "decimal_coins:coin_20"
+    },
+    {
+      "item": "decimal_coins:coin_20"
+    },
+    {
+      "item": "decimal_coins:coin_20"
+    },
+    {
+      "item": "decimal_coins:coin_20"
+    },
+    {
+      "item": "decimal_coins:coin_20"
+    }
+  ],
+  "result": {
+    "item": "decimal_coins:coin_100"
+  }
+}
