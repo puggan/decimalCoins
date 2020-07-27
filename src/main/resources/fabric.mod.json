@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "decimal_coins",
+  "version": "${version}",
+
+  "name": "Decimal Coins",
+  "description": "Adds coins in decimal with values, like 1, 5, 10..",
+  "authors": [
+    "Puggan Sundragon"
+  ],
+  "contact": {
+    "homepage": "https://github.com/puggan/decimalCoins",
+    "sources": "https://github.com/puggan/decimalCoins"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "se.puggan.decimal_coins.DecimalCoins"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
