@@ -4,10 +4,10 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 
 public class Coin extends Item {
-    static Properties CoinProperties() {
-        Properties p = (new Properties());
+    static Item.Settings CoinProperties() {
+        Item.Settings p = (new Item.Settings());
         p = p.group(ItemGroup.MISC);
-        p = p.maxStackSize(100);
+        p = p.maxCount(100);
         return p;
     }
     public Coin() {
