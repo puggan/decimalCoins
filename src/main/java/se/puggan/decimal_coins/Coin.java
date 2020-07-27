@@ -1,4 +1,4 @@
-package se.puggan.decimal_coins.items;
+package se.puggan.decimal_coins;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
