@@ -15,7 +15,7 @@ apply plugin: 'maven-publish'
 
 version = mc_version + '-' + mod_version
 group = 'se.puggan.decimal_coins'
-archivesBaseName = 'decimal_coins'
+archivesBaseName = 'decimalCoins-forge'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
