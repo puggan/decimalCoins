@@ -1,0 +1,6 @@
+{
+    "parent": "decimal_coins:item/coin_1",
+    "textures": {
+        "layer0": "decimal_coins:item/coin_10_roman"
+    }
+}
