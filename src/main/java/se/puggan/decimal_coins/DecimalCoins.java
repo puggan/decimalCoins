@@ -2,7 +2,9 @@ package se.puggan.decimal_coins;
 
 import net.minecraft.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -24,5 +26,7 @@ public class DecimalCoins {
 
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ITEMS.register(modEventBus);
+
+        ModLoadingContext.get().registerConfig(ModConfig.Type.SERVER, ServerConfig.SPEC);
     }
 }
