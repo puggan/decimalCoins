@@ -3,6 +3,7 @@ all: clean build run
 .PHONY: clean build run cb br
 
 clean:
+	./gradlew --stop
 	./gradlew clean
 
 build:
