@@ -7,7 +7,7 @@ public class Coin extends Item {
     static Item.Settings CoinProperties() {
         Item.Settings p = (new Item.Settings());
         p = p.group(ItemGroup.MISC);
-        p = p.maxCount(100);
+        p = p.maxCount(50);
         return p;
     }
     public Coin() {
