@@ -27,9 +27,10 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.7.4",
+    "fabricloader": ">=${loader_version}",
     "fabric": "*",
-    "minecraft": "1.16.x"
+    "minecraft": "${mc_mversion}.x",
+    "java": ">=16"
   },
   "suggests": {
     "flamingo": "*"
