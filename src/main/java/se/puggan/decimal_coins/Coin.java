@@ -7,7 +7,7 @@ public class Coin extends Item {
     static Properties CoinProperties() {
         Properties p = (new Properties());
         p = p.group(ItemGroup.MISC);
-        p = p.maxStackSize(100);
+        p.maxStackSize(50);
         return p;
     }
     public Coin() {
