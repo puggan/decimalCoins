@@ -1,6 +1,6 @@
 all: clean build run
 
-.PHONY: clean build run cb br
+.PHONY: clean build run cb br reset rebuild
 
 clean:
 	./gradlew --stop
@@ -9,9 +9,14 @@ clean:
 build:
 	./gradlew build
 
+reset:
+	./gradlew --refresh-dependencies buildDependents
+
 run:
 	./gradlew runClient
 
 cb: clean build
 
 br: build run
+
+rebuild: clean reset build
