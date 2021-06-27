@@ -20,7 +20,7 @@ license="MIT"
      # A display name for the mod
     displayName="Decimal Coins Mod" #mandatory
     # A URL to query for updates for this mod. See the JSON update specification <here>
-    updateJSONURL="https://raw.githubusercontent.com/puggan/decimalCoins/${mc_marjor_version}/master/update.json" #optional
+    updateJSONURL="https://raw.githubusercontent.com/puggan/decimalCoins/${mc_major_version}/fabric/update.json" #optional
     # A URL for the "homepage" for this mod, displayed in the mod UI
     displayURL="https://github.com/puggan/decimalCoins" #optional
     # A file name (in the root of the mod JAR) containing a logo for display
