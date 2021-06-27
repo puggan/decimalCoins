@@ -1,3 +1,9 @@
+base_path: /src/main/resources/assets/decimal_coins/lang/
+
+files:
+  - source: /en_us.json
+    translation: /%locale_with_underscore%.json
+
 export_languages:
  - af_za
  - ar_sa
@@ -121,8 +127,3 @@ export_languages:
  - zh_cn
  - zh_hk
  - zh_tw
-
-files:
-  - source: /src/main/resources/assets/decimal_coins/lang/en_us.json
-    translation: >-
-      /src/main/resources/assets/decimal_coins/lang/%locale_with_underscore%.json
