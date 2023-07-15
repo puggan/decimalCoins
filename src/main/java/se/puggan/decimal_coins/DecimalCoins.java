@@ -1,16 +1,14 @@
 package se.puggan.decimal_coins;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.item.ItemGroups;
+import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
+import net.minecraft.registry.Registry;
 
 public class DecimalCoins implements ModInitializer {
-    // Directly reference a log4j logger.
-    //public static final Logger LOGGER = LogManager.getLogger();
     public static String MOD_ID = "decimal_coins";
-
-    public DecimalCoins() {
-    }
 
     @Override
     public void onInitialize() {
@@ -18,7 +16,11 @@ public class DecimalCoins implements ModInitializer {
 
         for(int value : values) {
             Identifier id = new Identifier(MOD_ID, "coin_" + value);
-            Registry.register(Registry.ITEM, id, new Coin());
+            Coin coin = new Coin();
+            Registry.register(Registries.ITEM, id, coin);
+            ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(content -> {
+                content.add(coin);
+            });
         }
     }
 }
