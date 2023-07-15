@@ -1,35 +1,35 @@
 {
-  "schemaVersion": 1,
-  "id": "decimal_coins",
-  "version": "${version}",
+	"schemaVersion": 1,
+	"id": "decimal_coins",
+	"version": "${version}",
 
-  "name": "Decimal Coins",
-  "description": "Adds coins in decimal with values, like 1, 5, 10..",
-  "authors": [
-    "Puggan Sundragon"
-  ],
-  "contact": {
-    "homepage": "https://github.com/puggan/decimalCoins",
-    "issues": "https://github.com/puggan/decimalCoins/issues",
-    "sources": "https://github.com/puggan/decimalCoins"
-  },
+	"name": "Decimal Coins",
+	"description": "Adds coins in decimal with values, like 1, 5, 10..",
+	"authors": [
+		"Puggan Sundragon"
+	],
+	"contact": {
+		"homepage": "https://github.com/puggan/decimalCoins",
+		"issues": "https://github.com/puggan/decimalCoins/issues",
+		"sources": "https://github.com/puggan/decimalCoins"
+	},
 
-  "license": "MIT",
-  "icon": "logo.png",
+	"license": "MIT",
+	"icon": "logo.png",
 
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "se.puggan.decimal_coins.DecimalCoins"
-    ]
-  },
-  "mixins": [
-  ],
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"se.puggan.decimal_coins.DecimalCoins"
+		]
+	},
+	"mixins": [
+	],
 
-  "depends": {
-    "fabricloader": ">=${loader_version}",
-    "fabric-api": "*",
-    "minecraft": "${mc_mversion}.x",
-    "java": ">=17"
-  }
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"fabric-api": "*",
+		"minecraft": "${mc_mversion}.x",
+		"java": ">=17"
+	}
 }
