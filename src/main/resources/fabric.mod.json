@@ -31,8 +31,5 @@
     "fabric": "*",
     "minecraft": "${mc_mversion}.x",
     "java": ">=16"
-  },
-  "suggests": {
-    "flamingo": "*"
   }
 }
