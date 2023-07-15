@@ -30,6 +30,6 @@
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
     "minecraft": "${mc_mversion}.x",
-    "java": ">=16"
+    "java": ">=17"
   }
 }
